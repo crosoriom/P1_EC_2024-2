@@ -1,14 +1,9 @@
 # ninja log v5
 28	181	7561840645423364	CMakeFiles/P1_TeslaHazardsLights.dir/Startup/startup_stm32l476rgtx.s.obj	1ebe04b1122e9e1d
-44	217	7561858810219226	CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj	6d907651a9394eba
+41	347	7562656775548301	CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj	6d907651a9394eba
 20	367	7561840647268547	CMakeFiles/P1_TeslaHazardsLights.dir/Src/sysmem.c.obj	a104bb93d527f988
-218	502	7561858811833457	P1_TeslaHazardsLights.elf	145b89d5496a657e
+348	1073	7562656779879937	P1_TeslaHazardsLights.elf	145b89d5496a657e
 13	802	7561840651658002	CMakeFiles/P1_TeslaHazardsLights.dir/Src/syscall.c.obj	b3692cc6a5abb951
-34	185	7561856406623911	CMakeFiles/P1_TeslaHazardsLights.dir/Src/main.c.obj	48f5c782e568ce10
-16	187	7561845246983732	CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj	a23a20557045181a
-24	189	7561845246983732	CMakeFiles/P1_TeslaHazardsLights.dir/Src/systick.c.obj	bd5d0f383c1b40f2
-19	110	7561863732761356	CMakeFiles/P1_TeslaHazardsLights.dir/Src/main.c.obj	48f5c782e568ce10
-111	288	7561863733659321	P1_TeslaHazardsLights.elf	145b89d5496a657e
-35	146	7561866614700343	CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj	a23a20557045181a
-26	154	7561866614845464	CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj	6d907651a9394eba
-154	325	7561866615675561	P1_TeslaHazardsLights.elf	145b89d5496a657e
+30	343	7562656775514270	CMakeFiles/P1_TeslaHazardsLights.dir/Src/main.c.obj	48f5c782e568ce10
+49	348	7562656775514270	CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj	a23a20557045181a
+60	346	7562656775514270	CMakeFiles/P1_TeslaHazardsLights.dir/Src/systick.c.obj	bd5d0f383c1b40f2

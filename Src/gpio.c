@@ -16,7 +16,7 @@ uint8_t get_gpio_number(gpio_t *GPIOx)
 
 void reset_gpio_mode(gpio_t *GPIOx, PINx pin)
 {
-	GPIOx->MODER &= ~(0x3 << 2 * pin);
+	GPIOx->MODER &= ~(0x3 << (2 * pin));
 }
 
 void configure_gpio_input(gpio_t *GPIOx, PINx pin)
@@ -29,7 +29,7 @@ void configure_gpio_output(gpio_t *GPIOx, PINx pin)
 {
 	gpio_activate(get_gpio_number(GPIOx));
 	reset_gpio_mode(GPIOx, pin);
-	GPIOx->MODER |= (0x1 << 2 * pin);
+	GPIOx->MODER |= (0x1 << (2 * pin));
 }
 
 void gpio_set_highLevel(gpio_t *GPIOx, PINx pin)
