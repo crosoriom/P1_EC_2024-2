@@ -1,0 +1,3 @@
+C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/CMakeFiles/P1_TeslaHazardsLights.dir
+C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/CMakeFiles/edit_cache.dir
+C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/CMakeFiles/rebuild_cache.dir
