@@ -32,6 +32,11 @@ typedef enum {
 	PIN_15
 }PINx;
 
+typedef enum {
+	PULLUP,
+	PULLDOWN
+}InputMode_t;
+
 typedef struct {
 	volatile uint32_t MODER;
 	volatile uint32_t OTYPER;
@@ -50,7 +55,9 @@ typedef struct {
 uint8_t get_gpio_number(gpio_t *GPIOx);
 void configure_gpio_input(gpio_t *GPIOx, PINx pin);
 void configure_gpio_output(gpio_t *GPIOx, PINx pin);
+void gpio_set_lowLevel(gpio_t *GPIOx, PINx pin);
 void gpio_set_highLevel(gpio_t *GPIOx, PINx pin);
+int gpio_get_level(gpio_t *GPIOx, PINx pin, InputMode_t mode);
 void gpio_toggle_level(gpio_t *GPIOx, PINx pin);
 
 #endif

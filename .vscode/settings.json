@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "rcc.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "nvic.h": "c"
     },
     "cortex-debug.variableUseNaturalFormat": false
 }

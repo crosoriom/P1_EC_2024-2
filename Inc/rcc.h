@@ -43,6 +43,7 @@ typedef struct {
 	volatile uint32_t CSR;
 }ResetClockControl_t;
 
+void activate_syscfg(void);
 void gpio_activate(uint8_t gpio);
 
 #endif

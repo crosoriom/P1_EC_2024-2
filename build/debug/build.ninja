@@ -65,6 +65,30 @@ build CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj: C_COMPILER__P1_TeslaH
   OBJECT_DIR = CMakeFiles\P1_TeslaHazardsLights.dir
   OBJECT_FILE_DIR = CMakeFiles\P1_TeslaHazardsLights.dir\Src
 
+build CMakeFiles/P1_TeslaHazardsLights.dir/Src/exti.c.obj: C_COMPILER__P1_TeslaHazardsLights_unscanned_Debug C$:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Src/exti.c || cmake_object_order_depends_target_P1_TeslaHazardsLights
+  DEFINES = -DDEBUG
+  DEP_FILE = CMakeFiles\P1_TeslaHazardsLights.dir\Src\exti.c.obj.d
+  FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
+  INCLUDES = -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc
+  OBJECT_DIR = CMakeFiles\P1_TeslaHazardsLights.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1_TeslaHazardsLights.dir\Src
+
+build CMakeFiles/P1_TeslaHazardsLights.dir/Src/syscfg.c.obj: C_COMPILER__P1_TeslaHazardsLights_unscanned_Debug C$:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Src/syscfg.c || cmake_object_order_depends_target_P1_TeslaHazardsLights
+  DEFINES = -DDEBUG
+  DEP_FILE = CMakeFiles\P1_TeslaHazardsLights.dir\Src\syscfg.c.obj.d
+  FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
+  INCLUDES = -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc
+  OBJECT_DIR = CMakeFiles\P1_TeslaHazardsLights.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1_TeslaHazardsLights.dir\Src
+
+build CMakeFiles/P1_TeslaHazardsLights.dir/Src/nvic.c.obj: C_COMPILER__P1_TeslaHazardsLights_unscanned_Debug C$:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Src/nvic.c || cmake_object_order_depends_target_P1_TeslaHazardsLights
+  DEFINES = -DDEBUG
+  DEP_FILE = CMakeFiles\P1_TeslaHazardsLights.dir\Src\nvic.c.obj.d
+  FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb
+  INCLUDES = -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc
+  OBJECT_DIR = CMakeFiles\P1_TeslaHazardsLights.dir
+  OBJECT_FILE_DIR = CMakeFiles\P1_TeslaHazardsLights.dir\Src
+
 build CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj: C_COMPILER__P1_TeslaHazardsLights_unscanned_Debug C$:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Src/rcc.c || cmake_object_order_depends_target_P1_TeslaHazardsLights
   DEFINES = -DDEBUG
   DEP_FILE = CMakeFiles\P1_TeslaHazardsLights.dir\Src\rcc.c.obj.d
@@ -113,7 +137,7 @@ build CMakeFiles/P1_TeslaHazardsLights.dir/Startup/startup_stm32l476rgtx.s.obj: 
 #############################################
 # Link the executable P1_TeslaHazardsLights.elf
 
-build P1_TeslaHazardsLights.elf: C_EXECUTABLE_LINKER__P1_TeslaHazardsLights_Debug CMakeFiles/P1_TeslaHazardsLights.dir/Src/main.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/systick.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/syscall.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/sysmem.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Startup/startup_stm32l476rgtx.s.obj
+build P1_TeslaHazardsLights.elf: C_EXECUTABLE_LINKER__P1_TeslaHazardsLights_Debug CMakeFiles/P1_TeslaHazardsLights.dir/Src/main.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/gpio.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/exti.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/syscfg.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/nvic.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/rcc.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/systick.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/syscall.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Src/sysmem.c.obj CMakeFiles/P1_TeslaHazardsLights.dir/Startup/startup_stm32l476rgtx.s.obj
   FLAGS = -fdata-sections -ffunction-sections -Wl,--gc-sections -g
   LINK_FLAGS = -TC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/stm32l476rgtx_FLASH.ld -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,-Map=P1_TeslaHazardsLights.map -u _printf_float --specs=nosys.specs -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,-z,max-page-size=8 -Wl,--print-memory-usage
   LINK_PATH = -LC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/P1_TeslaHazardsLights

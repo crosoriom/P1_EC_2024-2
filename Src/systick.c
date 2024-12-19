@@ -20,7 +20,6 @@ void systick_init(uint32_t ticks)
 	SYSTICK->LOAD = ticks;					//Load the desired time for the Syster Timer Exception
 
 	SYSTICK->CTRL = 0x7;					//Write 111 on bits 2,1 and 0 in STK_CTRL Register. Turns on the System Timer and the Exception Requester.
-	// __enable_irq();
 }
 
 uint32_t systick_getTick(void)

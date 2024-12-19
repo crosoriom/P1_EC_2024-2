@@ -13,6 +13,24 @@
 },
 {
   "directory": "C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\exti.c.obj -c C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\exti.c",
+  "file": "C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\exti.c",
+  "output": "CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\exti.c.obj"
+},
+{
+  "directory": "C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\syscfg.c.obj -c C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\syscfg.c",
+  "file": "C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\syscfg.c",
+  "output": "CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\syscfg.c.obj"
+},
+{
+  "directory": "C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\nvic.c.obj -c C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\nvic.c",
+  "file": "C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\nvic.c",
+  "output": "CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\nvic.c.obj"
+},
+{
+  "directory": "C:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/build/debug",
   "command": "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/criso/Documents/UNAL/EstructurasComputacionales/Trabajos/P1_TeslaHazardsLights/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\rcc.c.obj -c C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\rcc.c",
   "file": "C:\\Users\\criso\\Documents\\UNAL\\EstructurasComputacionales\\Trabajos\\P1_TeslaHazardsLights\\Src\\rcc.c",
   "output": "CMakeFiles\\P1_TeslaHazardsLights.dir\\Src\\rcc.c.obj"
